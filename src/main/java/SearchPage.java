@@ -25,7 +25,7 @@ public class SearchPage {
 
     public SearchPage selectSortByHiestPrice() {
         driver.findElement(sortTrigger).click();
-        driver.findElement(highestPrice).click();
+        driver.findElement(highestPrice).click() ;
         return this;
     }
 

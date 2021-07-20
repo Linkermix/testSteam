@@ -20,7 +20,7 @@ public class MainPage {
     private By setLanguageEnglish = By.xpath("//a[contains(@class,'popup_menu') and contains(@href,'?l=english')]");
     private By setLanguageRussian = By.xpath("//a[contains(@class,'popup_menu') and contains(@href,'?l=russian')]");
     private By searchField = By.xpath("//*[@id='store_nav_search_term']");
-    private By searchButton = By.xpath("//*[@id='store_search_link']/img");
+    private By searchButton = By.xpath("//*[@id='store_search_link']/img") ;
 
     public String getNameStoreButton() {
 
