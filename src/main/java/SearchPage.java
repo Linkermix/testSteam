@@ -52,7 +52,6 @@ public class SearchPage {
             }
             else schetchikPustyhStrok++;
         }
-        for (float price: prices) System.out.println(price);
         return prices;
     }
 }
